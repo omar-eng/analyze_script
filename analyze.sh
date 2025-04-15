@@ -46,7 +46,7 @@ analyze_directory() {
             echo "Empty directories:"
             find "$dirpath" -type d -empty
 
-        }  # Removed all file output redirections
+        } 
     else
         echo "Error: '$dirpath' is NOT a valid directory."
         echo "(It either does not exist or is not a directory)."
